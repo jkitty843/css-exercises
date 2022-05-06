@@ -1,0 +1,7 @@
+/* Using class selectors ".container .text" will produce the same result. Type selectors used for practice & variety. */
+div p {
+  background-color: #ffff00;
+  color: #ff0000;
+  font-size: 20px;
+  text-align: center;
+}
