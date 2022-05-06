@@ -1,0 +1,13 @@
+.text {
+  font-family: "Helvetica", "Times New Roman", sans-serif;
+  font-size: 28px;
+}
+
+.zebra {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.bee {
+  background-color: #ffff00;
+}
