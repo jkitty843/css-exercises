@@ -1,0 +1,12 @@
+.odd {
+  background-color: hsl(350, 100%, 65%);
+}
+
+.cool,
+#four {
+  font-size: 24px;
+}
+
+#two {
+  color: hsl(240, 100%, 50%)
+}
