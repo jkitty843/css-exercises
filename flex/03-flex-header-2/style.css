@@ -8,21 +8,24 @@ body {
   font-family: Besley, serif;
 }
 
+.header, .left-header, .right-header, .links{
+  display: flex;
+}
+
 .header {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
-  display: flex;
   justify-content: flex-start;
   align-items: center;
+  padding: 8px;
 }
 
-.left-header{
-  display: flex;
+.left-header, .right-header, .links{
+  gap: 16px;
 }
 
 .right-header{
-  display: flex;
   margin-left: auto;
 }
 
@@ -57,4 +60,5 @@ a {
 
 ul {
   list-style-type: none;
+  padding: 0;
 }
