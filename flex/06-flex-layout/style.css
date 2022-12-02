@@ -25,3 +25,32 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+.container {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header {
+  padding: 4px;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+}
+
+.footer {
+  padding: 4px;
+  display: flex;
+  flex-flow: row;
+  background: #eeeeee;
+}
+
+.left-links {
+  justify-content: left;
+}
+
+.right-links {
+  justify-content: right;
+}
